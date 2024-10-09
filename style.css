@@ -1,0 +1,42 @@
+/* CSS to handle hover dropdown behavior */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  position: absolute; /* This ensures the dropdown doesn't affect surrounding content */
+}
+
+.dropdown-menu {
+  margin-top: 0; /* Adjusts dropdown's position */
+}
+
+.icon-circle {
+    display: inline-block;
+    background-color: #d3488a; /* Pink background */
+    color: white; /* White icon color */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem; /* Adjust icon size */
+  }
+  
+  .icon-circle i {
+    line-height: 50px;
+    text-decoration: none;
+  }
+
+  
+  /* Add smooth transition and hover color change, make links bold */
+.footer-links a {
+    color: gray; /* Default color (black) */
+    text-decoration: none;
+    font-weight: bold; /* Make the links bold */
+    transition: color 0.3s ease; /* Smooth transition for color */
+  }
+  
+  .footer-links a:hover {
+    color: #d3488a; /* Hover color (pink) */
+  }
+  
+  
